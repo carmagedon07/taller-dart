@@ -5,7 +5,15 @@ void main() {
 
   String telefono = "3021457896";
 
+  int? variableAceptaNull = null; // null safe
+
+  final String segundoApellido = "Herrera";
+
   var apellido;
 
+  print(nombre);
+
   print(apellido);
+
+  print(variableAceptaNull);
 }
